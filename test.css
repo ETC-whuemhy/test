@@ -1,0 +1,97 @@
+*{
+    background-color: black;
+}
+
+#header{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: black; */
+}
+
+ #span li{
+    display: none;
+    color: white;
+}
+
+#header li a{
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+}
+
+#header li {
+    list-style: none;
+}
+
+#mainPage img{
+    width: 100%;
+}
+#mainPage p{
+    font-size: 50px;
+    color: white;
+}
+
+#mainPage{
+    background-color: black;
+}
+
+
+
+#hero {
+    background: url('https://www.apple.com/v/home/ao/images/heroes/iphone-14-pro/hero_static__dhnk61c9g2uq_large_2x.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: white;
+}
+
+#hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+#hero h1 {
+    font-size: 48px;
+    background-color: gray;
+}
+
+#hero p {
+    font-size: 24px;
+    background-color: gray;
+}
+
+#hero a{
+    background-color: gray;
+}
+
+#features {
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+#features h2 {
+    margin-bottom: 20px;
+}
+
+#feature {
+    margin: 20px 0;
+}
+
+#footer {
+    /* background: #f2f2f2; */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
